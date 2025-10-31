@@ -1,2 +1,2 @@
 Täällä on tekstiä.
-Tässä on uusi rivi.
+Tässä on muokattu uusi rivi.
