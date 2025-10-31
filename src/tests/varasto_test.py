@@ -9,6 +9,7 @@ class TestVarasto(unittest.TestCase):
         self.varasto2 = Varasto(10, 20)
 
     def test_konstruktori_luo_tayden_varaston(self):
+        # vaikka yritettiin laitta saldo 20, mahtuu vain 10
         self.assertAlmostEqual(self.varasto2.saldo, 10)
 
     def test_negatiivisesta_tilavuudesta_tyhja_varasto(self):
